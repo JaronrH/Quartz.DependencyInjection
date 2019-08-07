@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.DependencyInjection", "Quartz.DependencyInjection\Quartz.DependencyInjection.csproj", "{ED235353-BC40-46BA-98F7-A07B49E69976}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.DependencyInjection.Tests", "Quartz.DependencyInjection.Tests\Quartz.DependencyInjection.Tests.csproj", "{AF4EC566-0C5D-419B-AD52-8E29E5EB7CA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED235353-BC40-46BA-98F7-A07B49E69976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED235353-BC40-46BA-98F7-A07B49E69976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED235353-BC40-46BA-98F7-A07B49E69976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED235353-BC40-46BA-98F7-A07B49E69976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF4EC566-0C5D-419B-AD52-8E29E5EB7CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4EC566-0C5D-419B-AD52-8E29E5EB7CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4EC566-0C5D-419B-AD52-8E29E5EB7CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4EC566-0C5D-419B-AD52-8E29E5EB7CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC89D9FE-B359-49AF-8AB2-4E0EDCFB2822}
+	EndGlobalSection
+EndGlobal

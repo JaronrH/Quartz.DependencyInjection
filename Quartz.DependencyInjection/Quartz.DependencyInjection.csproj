@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Product>Quartz.DependencyInjection</Product>
+    <Description>Allow Quartz to be used with Microsoft's Dependency Injection.</Description>
+    <PackageId>Quartz.DependencyInjection</PackageId>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <Version>1.0.0</Version>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Company>Quartz.DependencyInjection</Company>
+    <Authors>Quartz.DependencyInjection</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Quartz" Version="3.0.7" />
+    <PackageReference Include="Scrutor" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>
